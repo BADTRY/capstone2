@@ -1,0 +1,121 @@
+/*-----------------------import font----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'montserrat';
+}
+
+/*                heroes            */
+.heroes{
+    margin-top: 20vh;
+}
+.profile{
+    display: block;
+    margin: auto;
+}
+
+/*                skills            */
+.skills{
+    padding-top: 19vh;
+}
+
+/*                jumbotron   contact              */
+.jumbotronform{
+  padding: 1rem;
+  color: white;
+  margin: auto;
+  height: 800px;
+  line-height: 39px;
+}
+
+.jumbotronform h3{
+  border-left-style:solid;
+  border-color: white;
+  border-width: 1px;
+  margin:10% 0% 10% 35%;
+  padding: 0px 0px 0px 10px;
+  font-weight: bold;
+}
+.jumbotronform label{
+  font-size: 18px;
+  
+}
+.jumbotronform input{
+  font-size: 12px;
+  height: 40px;
+  padding: 20px;
+  margin: 0px 10rem 4rem 10px;
+  font-family: 'open sans';
+}
+.jumbotronform label{
+  font-size: 14px;
+  margin: 0px 10rem 0rem 10px;
+  font-family: 'open sans';
+}
+.jumbotronform textarea{
+  width: 100%;
+  height: 50%;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 5px;
+  font-family: 'open sans';
+  font-size: 12px;
+  margin: 0px 10rem 0rem 10px;
+}
+
+.jumbotronform .btn{
+  border: 2px solid #ffffff;
+  color: white;
+  padding:15px 20px 15px 20px;
+  margin: 40px 10rem 0rem 10px;
+  font-size: 18px;
+}
+.jumbotronform .btn:hover{
+  background-color: white;
+  color:#272525;
+}
+
+
+/*         contact information               */
+
+.jumbotroncontact{
+  padding: 1rem;
+  background-color: #f8f8f8;
+  color: black;
+  height: 800px;
+  margin: 0px 0px 20% 0px;
+  line-height: 10px;
+}
+
+.jumbotroncontact p{
+  padding-bottom: 70px;
+  font-size: 16px;
+
+}
+.jumbotroncontact h5{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.jumbotroncontact h3{
+  border-left-style:solid;
+  border-color: rgb(43, 43, 43);
+  border-width: 1px;
+  margin:10% 0% 10% 20%;
+  padding: 0px 0px 0px 30px;
+  font-weight: bold;
+}
+.contacts {
+  margin: 0px 0px 0px 22%;
+}
+.constain{
+  padding-top: 12vh;
+  margin: 7.8rem 0px 2rem 0px;
+}
+.jumbotroncontact a{
+  font-size: 30px;
+  padding: 0px 0px 0px 6px;
+}
